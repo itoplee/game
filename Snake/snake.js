@@ -103,8 +103,6 @@ var HtmlHelper = {
 			var e = e || event;
 			var currKey = e.keyCode || e.which || e.charCode;
 			switch (currKey) {
-				case 32: // 空格
-					break;
 				case 37: // 左移
 					HtmlHelper.dir = Direction.left;
 					break;
